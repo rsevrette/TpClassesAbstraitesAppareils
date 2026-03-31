@@ -44,5 +44,13 @@ class Program
             appareil.AfficherInfos();
         }
 
+        Console.WriteLine("\n__________________Exo 6__________________");
+        Dictionary<string, Appareil> dicoAppareils = new Dictionary<string, Appareil>();
+        dicoAppareils.Add(appareil1.GetModel(), appareil1);
+        dicoAppareils.Add(appareil2.GetModel(), appareil2);
+        dicoAppareils.Add(appareil3.GetModel(), appareil3);
+        dicoAppareils.Add(appareil4.GetModel(), appareil4);
+        Console.WriteLine(dicoAppareils["modele1"].ToString());
+
     }
 }

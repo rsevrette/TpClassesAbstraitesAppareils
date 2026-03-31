@@ -22,5 +22,7 @@ Exercice 4:
 Exercice 5:
     1/ Parce qu'Ordinateur et Smartphone héritent de Appareil
 
-
+Exercice 6:
+    1/ il permet d'associer une clé a une valeur, ainsi on peut recuperer toute les infos par rapport a une clé
+    
 

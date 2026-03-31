@@ -3,6 +3,10 @@ abstract class Appareil
     protected string Marque; 
     protected string Modele; 
     protected DateTime DateFabrication;
+    public string GetModel()
+    {
+        return Modele;
+    }
     public Appareil(string Marque, string Modele, DateTime DateFabrication)
     {
         this.Marque = Marque;
