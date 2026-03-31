@@ -1,0 +1,10 @@
+Exercice 1:
+    1/ Parce qu'un "appareil" seul n'a pas de sens concret. On ne crée pas un appareil générique,
+       on crée une télévision, un frigo, un téléphone... La classe abstraite sert de modèle 
+       commun pour ces sous-classes.
+    
+    2/ Non. Une classe abstraite ne peut pas être instanciée directement. Cette ligne provoquera
+       une erreur de compilation.
+
+    3/ virtual → la méthode a déjà un comportement par défaut, la sous-classe peut le modifier avec override.
+       abstract → la méthode n'a pas de corps, la sous-classe doit obligatoirement l'implémenter.
