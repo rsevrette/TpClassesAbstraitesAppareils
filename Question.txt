@@ -19,4 +19,8 @@ Exercice 3:
 Exercice 4:
     1/ Pour stocker une date en C# on utlise "DateTime"
 
-    
+Exercice 5:
+    1/ Parce qu'Ordinateur et Smartphone héritent de Appareil
+
+
+

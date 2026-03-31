@@ -1,4 +1,6 @@
-﻿namespace TP_Classes_abstraites;
+﻿using System.Net.Sockets;
+
+namespace TP_Classes_abstraites;
 
 class Program
 {
@@ -26,5 +28,21 @@ class Program
         Console.WriteLine(appareil2.CalculerAnciennete());
         Console.WriteLine(appareil3.CalculerAnciennete());
         Console.WriteLine(appareil4.CalculerAnciennete());
+
+        Console.WriteLine("\n__________________Exo 5__________________");
+        List<Appareil> appareils = new List<Appareil>();
+        appareils.Add(appareil1);
+        appareils.Add(appareil2);
+        appareils.Add(appareil3);
+        appareils.Add(appareil4);
+        foreach (Appareil appareil in appareils)
+        {
+            Console.WriteLine("-----------------");
+            appareil.Allumer();
+            appareil.AfficherType();
+            appareil.AfficherType();
+            appareil.AfficherInfos();
+        }
+
     }
 }
