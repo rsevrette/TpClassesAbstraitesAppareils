@@ -52,5 +52,14 @@ class Program
         dicoAppareils.Add(appareil4.GetModel(), appareil4);
         Console.WriteLine(dicoAppareils["modele1"].ToString());
 
+        Console.WriteLine("\n__________________Exo 7__________________");
+        CatalogueAppareils catalogue = new CatalogueAppareils(new Dictionary<string, Appareil>());
+        catalogue.AjouterAppareil(new Ordinateur("Asus", "01A1f6qd", new DateTime(2022, 5, 10), 15));
+        catalogue.AjouterAppareil(new Ordinateur("Lenovo", "0qzd5f", new DateTime(2021, 3, 15), 14));
+        catalogue.AjouterAppareil(new Smartphone("Apple", "iPhone15", new DateTime(2023, 9, 1), 6));
+
+        catalogue.RechercherAppareil("01A1f6qd");
+        catalogue.RechercherAppareil("iphone99");
+
     }
 }

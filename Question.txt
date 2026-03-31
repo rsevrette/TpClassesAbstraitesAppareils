@@ -24,5 +24,7 @@ Exercice 5:
 
 Exercice 6:
     1/ il permet d'associer une clé a une valeur, ainsi on peut recuperer toute les infos par rapport a une clé
-    
+
+Exercice 7:
+    1/ Car cela permet de mettree un message d erreur clair lorsque un appareil n existe pas dans le catalogue
 
