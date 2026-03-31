@@ -15,3 +15,8 @@ Exercice 2:
 Exercice 3:
     1/ Comme AfficherType() n'est pas redefinit dans Smartphone, la version utilisé serta celle fait 
        dans la classe abstraite Apareil
+
+Exercice 4:
+    1/ Pour stocker une date en C# on utlise "DateTime"
+
+    
